@@ -2,6 +2,17 @@
 
 A portable agent skill that removes signs of AI-generated writing from text, making it sound more natural and human. It is plain Markdown, so it can run in any harness that supports skill-style instructions.
 
+## Repository contents
+
+This repository hosts two independent skills:
+
+| Skill | Location | Purpose |
+|---|---|---|
+| [blader/humanizer](https://github.com/blader/humanizer) | repo root (`SKILL.md`) | Removes signs of AI-generated writing from text |
+| [nicojunk/claude-ig](https://github.com/NicoJunk/claude-ig) | [`skills/claude-ig/`](skills/claude-ig/) | Instagram content engine: Reels, Hooks, Captions, Stories, Carousels, analysis, and strategy |
+
+They are unrelated products that happen to share this repository. Each has its own installer, license, and version history — see [`skills/claude-ig/README.md`](skills/claude-ig/README.md) for that skill's docs. The instructions below cover the humanizer skill only.
+
 ## Installation
 
 ### Skills CLI
